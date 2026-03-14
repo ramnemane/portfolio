@@ -227,13 +227,21 @@ Large scale Salesforce CRM platform focusing on automation and enterprise integr
 
 <h2>Contact Me</h2>
 
-<form id="contact-form">
+<form action="https://formsubmit.co/ramnemane2112000@gmail.com" method="POST">
 
-<input class="form-control mb-3" name="name" placeholder="Your Name" required>
+<input type="text" name="name" class="form-control mb-3" placeholder="Your Name" required>
 
-<textarea class="form-control mb-3" name="message" placeholder="Your Message"></textarea>
+<textarea name="message" class="form-control mb-3" placeholder="Your Message" rows="4" required></textarea>
 
-<button class="btn btn-gold">Send Message</button>
+<!-- disable captcha -->
+<input type="hidden" name="_captcha" value="false">
+
+<!-- redirect after submit -->
+<input type="hidden" name="_next" value="https://ramnemane.github.io/ram-portfolio/thankyou.html">
+
+<button type="submit" class="btn btn-gold">
+Send Message
+</button>
 
 </form>
 
