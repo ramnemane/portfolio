@@ -2,45 +2,55 @@ body{
 font-family:'Inter',sans-serif;
 background:#f2f2f2;
 color:#333;
+line-height:1.7;
 }
 
 .bg-black{
-background:black !important;
+background:black!important;
+}
+
+.section{
+padding:90px 0;
+}
+
+.section-light{
+background:#f8f8f8;
+padding:90px 0;
+}
+
+.section-title{
+text-align:center;
+margin-bottom:40px;
+color:#c9a227;
+font-weight:600;
 }
 
 .hero{
-padding-top:120px;
-padding-bottom:60px;
+padding-top:150px;
+padding-bottom:90px;
 background:#e9e9e9;
+}
+
+.profile-frame{
+display:inline-block;
+padding:8px;
+border-radius:50%;
+background:#c9a227;
 }
 
 .profile-img{
 width:150px;
 border-radius:50%;
-border:4px solid #c9a227;
-}
-
-.section-light{
-background:#f8f8f8;
-padding:60px 0;
-}
-
-.section-title{
-text-align:center;
-margin-bottom:30px;
-color:#c9a227;
-font-weight:600;
-}
-
-.icon{
-font-size:40px;
-margin-bottom:10px;
-color:#c9a227;
+border:4px solid white;
 }
 
 .hero-text{
-max-width:600px;
+max-width:650px;
 margin:auto;
+}
+
+.project-card{
+margin-bottom:25px;
 }
 
 .btn-gold{
@@ -54,13 +64,13 @@ background:#b8961f;
 }
 
 .bg-gold{
-background:#c9a227 !important;
+background:#c9a227!important;
 }
 
 .footer{
 background:black;
 color:white;
 text-align:center;
-padding:15px;
-margin-top:40px;
+padding:20px;
+margin-top:60px;
 }
