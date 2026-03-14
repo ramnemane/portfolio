@@ -1,27 +1,36 @@
-/* EXPERIENCE CARD TEXT FIX */
+/* PROFESSIONAL EXPERIENCE FIX */
 
 .exp-card{
-background:white;
+background:#ffffff;
 padding:25px;
-margin-bottom:25px;
+margin-bottom:30px;
 border-radius:10px;
 box-shadow:0 6px 15px rgba(0,0,0,0.08);
-color:#333;
 }
+
+/* Company name */
 
 .exp-card h5{
-color:#000;
+color:#111 !important;
 font-weight:600;
+margin-bottom:6px;
 }
+
+/* Role and dates */
 
 .exp-card p{
-color:#555;
+color:#555 !important;
+margin-bottom:10px;
 }
 
+/* Bullet list */
+
 .exp-card ul{
-color:#333;
+color:#333 !important;
+padding-left:20px;
 }
 
 .exp-card li{
+color:#333 !important;
 margin-bottom:6px;
 }
